@@ -8,13 +8,13 @@ let config = {
     host: 'localhost',
     user: 'root',
     password: 'root',
-    database: 'test'
+    database: 'test'	//数据库名
 };
 
 let pool = mysql.createPool(config);
 
 
-let sql = 'select * from user'
+let sql = 'select * from user'		//查询user表的所有数据
 
 
 
